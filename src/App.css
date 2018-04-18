@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  margin-top: 20px;
+}
+
+meter {
+    /* Reset the default appearance */
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+
+    margin: 0 auto 1em;
+    width: 100%;
+    height: .5em;
+
+  }
+
+  meter::-webkit-meter-bar {
+    background: none;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.is-strength-0 { color: red; }
+.is-strength-1 { color: yellow; }
+.is-strength-2 { color: orange; }
+.is-strength-3 { color: rgb(112, 105, 219); }
+.is-strength-4 { color: rgb(83, 221, 83); }
+
+/* .ReactPasswordStrength-strength-bar {
+  box-sizing: border-box;
+  height: 2px;
+  position: relative; top: 1px; right: 1px;
+  transition: width 300ms ease-out;
+  width: 0;
+}
+.is-strengthBar-0  {
+  background: #D1462F;
+  width: 20%;
+}
+
+.is-strengthBar-1  {
+  background: #D1462F;
+  width: 40%;
+}
+
+.is-strengthBar-2 {
+  background: #57B8FF;
+  width: 60%;
+}
+
+.is-strengthBar-3  {
+  background: #57B8FF;
+  width: 80%;
+}
+
+.is-strengthBar-4  {
+  background: #2FBF71;
+  width: calc(100% + 2px);
+} */
